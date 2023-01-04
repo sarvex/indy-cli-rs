@@ -3,8 +3,8 @@
 #
 
 repository:
-  name: indy-sdk
-  description: indy-sdk
+  name: indy-cli-rs
+  description: indy-cli-rs
   homepage: https://wiki.hyperledger.org/display/indy
   default_branch: main 
   has_downloads: false
