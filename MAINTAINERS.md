@@ -14,22 +14,16 @@ things you ought to know about who maintains this code, and how they do it:
 2. Be aware that individual folders in the project may have more
    specific maintainers; if you see another `MAINTAINERS.md` in a subfolder,
    that governs the tree below it.
-3. A lot of interactions with maintainers take place on [Jira](https://jira.hyperledger.org/projects/IS).
-   You'll need [Linux Foundation credentials](https://identity.linuxfoundation.org) to
-   comment there; creating them is self-service. The project name you want, once in
-   jira, is "IS".
-4. The other important communication mechanism to know about is [Rocket.Chat](https://chat.hyperledger.org).
-   Again, you use your Linux Foundation credentials. Most of the team hangs out
-   there during their work day; look for `#indy-sdk`, `#indy`, `#indy-pr-review`,
-   and so forth.
-5. We use developer certificate of origin (DCO) in all hyperledger repositories,
+4. The other important communication mechanism to know about is the Hyperledger Discord instance.
+   Most of the team hangs out there during their work day; look for `#indy-cli` for this work.
+5. We require developer certificate of origin (DCO) in all hyperledger repositories,
   so to get your pull requests accepted, you must certify your commits by signing off on each commit.
-  More information can be found in [Signing Commits](docs/signing-commits.md) article.
+  See: [DCO - Developer Certificate of Origin](https://github.com/apps/dco)
 
 ## Who To Contact
 
 For ordinary questions, we suggest you contact [active contributors](../../graphs/contributors)
-generically, on rocket.chat `#indy-sdk`. If that doesn't get someone's attention,
+generically, on Discord `#indy-cli`. If that doesn't get someone's attention,
 feel free to contact the contributors individually.
 
 Maintainers are busy and delegate many decisions to other trusted
@@ -38,9 +32,18 @@ complex design decision or a controversial PR.
 
 ## Maintainers
 
-* Sergej - maintainer. geo=Voronezh, Russia; github=jovfer, rocket.chat=sergey.minaev, jira=sergey.minaev
+| GitHub ID | Name | Role |
+|-----|-----|-----|
+| @nage | Nathan George | Maintainer |
+| @swcurran | Stephen Curran |  |
+| @esplinr | Richard Esplin | Maintainer |
+| @dhh1128 | Daniel Hardman | Maintainer |
+| @WadeBarnes | Wade Barnes | Maintainer |
+| @andrewwhitehead | Andrew Whitehead |
+
 
 ## Emeritus Maintainers
 
+* Sergej - maintainer. geo=Voronezh, Russia; github=jovfer, rocket.chat=sergey.minaev, jira=sergey.minaev
 * Slava - maintainer and scrum team lead. geo=Voronezh, Russia; github=vimmerru, rocket.chat=gudkov, jira=gudkov
 * Doug - vcx maintainer. geo=Utah, USA; github=glowkey; rocket.chat, jira=DouglasWightman
