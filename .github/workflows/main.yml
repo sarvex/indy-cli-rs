@@ -1044,7 +1044,7 @@ jobs:
       - make-release
     steps:
       - name: Fetch android device build from artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: libindy-android-${{ needs.workflow-setup.outputs.PUBLISH_VERSION }}-device
       - name: Upload release assets
@@ -1075,7 +1075,7 @@ jobs:
       - make-release
     steps:
       - name: Fetch android device build from artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: libindy-android-${{ needs.workflow-setup.outputs.PUBLISH_VERSION }}-emulator
       - name: Upload release assets
@@ -1106,7 +1106,7 @@ jobs:
       - make-release
     steps:
       - name: Fetch iOS device build from artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: libindy-ios-${{ needs.workflow-setup.outputs.PUBLISH_VERSION }}-universal
       - name: Upload release assets
